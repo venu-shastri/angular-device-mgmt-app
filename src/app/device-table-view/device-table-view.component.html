@@ -1,0 +1,17 @@
+<p>device-table-view works!</p>
+<table>
+   <thead>
+       <tr>
+           <th>Id</th>
+           <th>Name</th>
+           <th>Location</th>
+       </tr>
+   </thead>
+   <tbody>
+       <tr *ngFor="let device of devices">
+           <td>{{device.Id}}</td>
+           <td>{{device.Name}}</td>
+           <td>{{device.Location}}</td>
+       </tr>
+   </tbody>
+</table>
